@@ -34,7 +34,7 @@ if ((tipoPessoa == "F") || (tipoPessoa == "f"))
 
     pessoaFisica.PagarImposto(valorPago);
 
-    Console.WriteLine($"\nNome .............: {pessoaFisica.Nome}");
+    Console.WriteLine($"\nNome ...........: {pessoaFisica.Nome}");
     Console.WriteLine($"Endereço .........: {pessoaFisica.Endereco}");
     Console.WriteLine($"CPF ..............: {pessoaFisica.Cpf}");
     Console.WriteLine($"RG ...............: {pessoaFisica.Rg}");
@@ -62,7 +62,7 @@ else if ((tipoPessoa == "J") || (tipoPessoa == "j"))
 
     pessoaJuridica.PagarImposto(valorPago);
 
-    Console.WriteLine($"\nNome .............: {pessoaJuridica.Nome}");
+    Console.WriteLine($"\nNome ...........: {pessoaJuridica.Nome}");
     Console.WriteLine($"Endereço .........: {pessoaJuridica.Endereco}");
     Console.WriteLine($"CPF ..............: {pessoaJuridica.Cnpj}");
     Console.WriteLine($"RG ...............: {pessoaJuridica.Ie}");
